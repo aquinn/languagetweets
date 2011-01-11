@@ -17,13 +17,13 @@ compile my own wordlist
 5. Put all the info into config/user_info.yml
 
 6. Add dict.cc data to database.
-: I used Sqlite3 and Sqlitebrowser to import the csv file.
+   I used Sqlite3 and Sqlitebrowser to import the csv file.
 
 7. Add line to Cron table to execute as many times a day as you want
 
-: This is for twice a day - 12pm and 3pm
+   This is for twice a day - 12pm and 3pm
 
-: 0 12,15 * * *       /usr/bin/ruby /home/user/scripts/languagetweets/run.rb
+   0 12,15 * * *       /usr/bin/ruby /home/user/scripts/languagetweets/run.rb
 
 
 In the wild..
