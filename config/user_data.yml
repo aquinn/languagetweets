@@ -1,0 +1,14 @@
+# number of lines in the database
+dict:
+   lines: 2
+# create bitly account http://bit.ly/
+bitly:
+   login: username
+   api_key: 
+   base_url: 'http://www.dict.cc/?s=' # change, e.g pl-en.dict.cc
+#create twitter account and register app with http://dev.twitter.com/
+twitter:
+   consumer_key: 
+   consumer_secret: 
+   oauth_token: 
+   oauth_token_secret:
